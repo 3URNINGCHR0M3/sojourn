@@ -1,0 +1,4 @@
+# sojourn
+The Sojourn application will make it possible to navigate a realtional database through a graphical user interface.  It will support searches, folloing parent-child and child-parent relationships between tables and recentering on a given row.
+
+For example, supose you have a database of your record collection, with a ARTIST, GROUP and ALBUM tables.  You might search first for the Eagles and see information such as when they were formed.  You might then want to see the list of all their albums.  The list of albums would be accessed by expanding a list in the user interface, which dynamicaly queries the database.  You might also want to get the list of artists in the group, also accessed through a list.  Once you see the list of artist, you might want to recenter on Joe Walsh.  This would give you more details than you could see in the Group view.  It would also let you see all of the groups he has been a member of.
