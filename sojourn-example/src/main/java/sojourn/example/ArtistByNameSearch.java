@@ -12,5 +12,5 @@ import sojourn.model.anno.Table;
 @SearchParameter(name="first name", column = "first_name", required = false)
 @SearchParameter(name="last name", column = "last_name", required = false)
 @SearchResult(type = Artist.class)
-public class ArtistByName implements SearchDefinition {
+public class ArtistByNameSearch implements SearchDefinition {
 }
