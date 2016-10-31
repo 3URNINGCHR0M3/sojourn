@@ -3,6 +3,11 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>sojourn</groupId>
+        <artifactId>sojourn-parent</artifactId>
+        <version>angerman</version>
+    </parent>
     <groupId>sojourn</groupId>
     <artifactId>sojourn-model</artifactId>
     <version>1.0-SNAPSHOT</version>
